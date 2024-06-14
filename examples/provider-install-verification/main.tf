@@ -8,4 +8,4 @@ terraform {
 
 provider "pastebin" {}
 
-resource "pastebin_paste" "example" {}
+data "pastebin_noop" "example" {}

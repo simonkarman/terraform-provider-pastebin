@@ -46,7 +46,7 @@ func (p *pastebinProvider) Metadata(_ context.Context, _ provider.MetadataReques
 type pastebinProviderModel struct {
 	Host    types.String `tfsdk:"host"`
 	DevKey  types.String `tfsdk:"dev_key"`
-	UserKey types.String `tfsdk:"dev_key"`
+	UserKey types.String `tfsdk:"user_key"`
 }
 
 func (p *pastebinProvider) Schema(_ context.Context, _ provider.SchemaRequest, resp *provider.SchemaResponse) {
@@ -56,11 +56,11 @@ func (p *pastebinProvider) Schema(_ context.Context, _ provider.SchemaRequest, r
 				Optional: true,
 			},
 			"dev_key": schema.StringAttribute{
-				Required:  true,
+				Optional:  true,
 				Sensitive: true,
 			},
 			"user_key": schema.StringAttribute{
-				Required:  true,
+				Optional:  true,
 				Sensitive: true,
 			},
 		},
@@ -189,7 +189,9 @@ func (p *pastebinProvider) Configure(ctx context.Context, req provider.Configure
 
 // DataSources defines the data sources implemented in the provider.
 func (p *pastebinProvider) DataSources(_ context.Context) []func() datasource.DataSource {
-	return nil
+	return []func() datasource.DataSource{
+		NewNoopDataSource,
+	}
 }
 
 // Resources defines the resources implemented in the provider.
