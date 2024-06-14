@@ -6,7 +6,7 @@ require (
 	github.com/hashicorp/terraform-plugin-docs v0.19.4
 	github.com/hashicorp/terraform-plugin-framework v1.9.0
 	github.com/hashicorp/terraform-plugin-go v0.23.0
-	github.com/simonkarman/pastebin-client-go v0.0.1
+	github.com/simonkarman/pastebin-client-go v0.0.2
 )
 
 require (

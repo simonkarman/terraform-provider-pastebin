@@ -148,6 +148,8 @@ github.com/simonkarman/pastebin-client-go v0.0.0-20240614125143-fe218001fbb9 h1:
 github.com/simonkarman/pastebin-client-go v0.0.0-20240614125143-fe218001fbb9/go.mod h1:8zDwf6rXbyz36Ue/HIwrLWTn54My1A7PD63B6XbzBAQ=
 github.com/simonkarman/pastebin-client-go v0.0.1 h1:y7ds+js2osPBlbjSa5qyqCM9dn3L6iZwyPuYZfATHe8=
 github.com/simonkarman/pastebin-client-go v0.0.1/go.mod h1:8zDwf6rXbyz36Ue/HIwrLWTn54My1A7PD63B6XbzBAQ=
+github.com/simonkarman/pastebin-client-go v0.0.2 h1:Pq+Jm457HeEfrKZV/xcVZ2CQxhBgbSH12pQybkOXM3A=
+github.com/simonkarman/pastebin-client-go v0.0.2/go.mod h1:8zDwf6rXbyz36Ue/HIwrLWTn54My1A7PD63B6XbzBAQ=
 github.com/skeema/knownhosts v1.2.2 h1:Iug2P4fLmDw9f41PB6thxUkNUkJzB5i+1/exaj40L3A=
 github.com/skeema/knownhosts v1.2.2/go.mod h1:xYbVRSPxqBZFrdmDyMmsOs+uX1UZC3nTN3ThzgDxUwo=
 github.com/spf13/cast v1.3.1/go.mod h1:Qx5cxh0v+4UWYiBimWS+eyWzqEqokIECu5etghLkUJE=
