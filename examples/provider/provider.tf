@@ -7,5 +7,3 @@ terraform {
 }
 
 provider "pastebin" {}
-
-data "pastebin_noop" "example" {}
